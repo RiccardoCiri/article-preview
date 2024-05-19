@@ -1,0 +1,76 @@
+:root {
+  --VeryPaleCyan: hsl(193, 100%, 96%);
+  --VeryDarkCyan: hsl(192, 100%, 9%);
+  --GrayishBlue: hsl(208, 11%, 55%);
+  --Pink: hsl(322, 100%, 66%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  background-image: url(images/bg-hero-desktop.svg);
+  height: 78vh;
+  background-color: var(--VeryPaleCyan);
+  display: flex;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  background-color: var(--VeryDarkCyan);
+}
+
+.button1 {
+  border: none;
+  background-color: var(--Pink);
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px var(--Pink);
+  padding: 15px;
+}
+
+.button2 {
+  border: none;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px var(--GrayishBlue);
+  padding: 15px;
+}
+
+.mockups {
+  width: 69vh;
+}
+
+.headerSectionSx {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px 84px;
+}
+
+.headerSectionDx {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px 100px;
+}
+
+.logo1 {
+  width: 19vh;
+}
+
+.title {
+}
