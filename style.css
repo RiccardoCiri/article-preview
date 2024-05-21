@@ -47,6 +47,28 @@ footer {
   font-size: small;
 }
 
+.button1:hover {
+  background-color: hsla(322, 100%, 66%, 0.5);
+  cursor: pointer;
+  box-shadow: 0px 0px 0px whitesmoke;
+}
+
+.button2:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 0px;
+}
+
+.infoHover:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.socialButton:hover {
+  background-color: var(--Pink);
+  border-color: var(--Pink);
+  cursor: pointer;
+}
+
 .firstParagraph {
   padding-bottom: 7rem;
 }
