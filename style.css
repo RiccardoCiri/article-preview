@@ -58,29 +58,28 @@ footer {
 .button1 {
   border: none;
   background-color: var(--Pink);
-  border-radius: 15px;
+  border-radius: 45px;
   box-shadow: 1px 1px 5px var(--Pink);
   padding: 15px;
-  width: 22vh;
+  width: 15rem;
   color: white;
-  margin-top: 5vh;
+  margin-top: 7rem;
   margin-bottom: auto;
 }
 
 .button2 {
   border: none;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 45px;
   box-shadow: 1px 1px 5px var(--GrayishBlue);
   padding: 15px;
-  width: 18vh;
-  margin-bottom: 10vh;
+  width: 9rem;
   color: var(--VeryDarkCyan);
   margin-bottom: auto;
 }
 
 .mockups {
-  width: 66vh;
+  width: 38rem;
   margin-left: 80px;
 }
 
@@ -100,12 +99,12 @@ footer {
 }
 
 .logo1 {
-  width: 19vh;
-  padding-bottom: 27%;
+  width: 11rem;
+  padding-bottom: 16%;
 }
 
 .imgStandard {
-  height: 39vh;
+  height: 14rem;
 }
 
 .containerStandard {
@@ -114,10 +113,10 @@ footer {
   padding: 60px;
   background-color: white;
   box-shadow: 0px 0px 12px grey;
-  border-radius: 7px;
-  margin-left: 11vh;
-  margin-right: 11vh;
-  margin-bottom: 4vh;
+  border-radius: 12px;
+  margin-left: 14rem;
+  margin-right: 14rem;
+  margin-bottom: 38px;
 }
 
 .containerText {
@@ -148,18 +147,18 @@ footer {
   align-self: center;
   border-radius: 8px;
   box-shadow: 1px 1px 12px grey;
-  padding: 7vh 12vh;
-  margin-bottom: -8vh;
+  padding: 3rem 4rem;
+  margin-bottom: -4rem;
   position: relative;
   background-color: white;
-  margin-top: 7vh;
+  margin-top: 6rem;
 }
 
 .iconText {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin: 4vh;
+  margin: 36px;
 }
 
 .iconContainer {
@@ -171,8 +170,8 @@ footer {
 
 .logo2img {
   background-color: white;
-  height: 3vh;
-  width: 17vh;
+  height: 25px;
+  width: 111px;
   margin: 70px 0px 0px 36px;
   border-radius: 40px;
 }
@@ -189,7 +188,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   color: white;
-  padding-bottom: 3vh;
+  padding-bottom: 33px;
   padding-left: 120px;
 }
 
@@ -204,7 +203,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 30vh;
+  width: 18rem;
   margin-right: auto;
   color: white;
   margin-block: auto;
@@ -212,13 +211,13 @@ footer {
 }
 
 .containerParagraph {
-  margin-left: 2vh;
+  margin-left: 20px;
 }
 
 .iconSocial {
   display: flex;
   flex-direction: row-reverse;
-  width: 9vh;
+  width: 4rem;
   align-items: baseline;
-  padding-bottom: 12vh;
+  padding-bottom: 104px;
 }
