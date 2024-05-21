@@ -29,10 +29,30 @@ header {
   background-color: var(--VeryPaleCyan);
   display: flex;
   font-family: "Poppins", sans-serif;
+  justify-content: center;
+  margin-bottom: 18vh;
+}
+
+h1 {
+  color: var(--VeryDarkCyan);
+  font-family: "Poppins", sans-serif;
 }
 
 footer {
   background-color: var(--VeryDarkCyan);
+  display: flex;
+  flex-direction: row;
+  height: 55vh;
+  font-family: "Open Sans", sans-serif;
+  font-size: small;
+}
+
+.growTogheter {
+  margin-left: auto;
+}
+
+.title {
+  margin-bottom: 5vh;
 }
 
 .button1 {
@@ -41,6 +61,10 @@ footer {
   border-radius: 15px;
   box-shadow: 1px 1px 5px var(--Pink);
   padding: 15px;
+  width: 22vh;
+  color: white;
+  margin-top: 5vh;
+  margin-bottom: auto;
 }
 
 .button2 {
@@ -49,29 +73,152 @@ footer {
   border-radius: 15px;
   box-shadow: 1px 1px 5px var(--GrayishBlue);
   padding: 15px;
+  width: 18vh;
+  margin-bottom: 10vh;
+  color: var(--VeryDarkCyan);
+  margin-bottom: auto;
 }
 
 .mockups {
-  width: 69vh;
+  width: 66vh;
+  margin-left: 80px;
 }
 
 .headerSectionSx {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   padding: 32px 84px;
 }
 
 .headerSectionDx {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   padding: 32px 100px;
+  align-items: flex-end;
 }
 
 .logo1 {
   width: 19vh;
+  padding-bottom: 27%;
 }
 
-.title {
+.imgStandard {
+  height: 39vh;
+}
+
+.containerStandard {
+  display: flex;
+  flex-direction: row;
+  padding: 60px;
+  background-color: white;
+  box-shadow: 0px 0px 12px grey;
+  border-radius: 7px;
+  margin-left: 11vh;
+  margin-right: 11vh;
+  margin-bottom: 4vh;
+}
+
+.containerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: initial;
+  font-family: "Poppins", sans-serif;
+}
+
+.containerTextS {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.community {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.communitySection {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  border-radius: 8px;
+  box-shadow: 1px 1px 12px grey;
+  padding: 7vh 12vh;
+  margin-bottom: -8vh;
+  position: relative;
+  background-color: white;
+  margin-top: 7vh;
+}
+
+.iconText {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 4vh;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+}
+
+.logo2img {
+  background-color: white;
+  height: 3vh;
+  width: 17vh;
+  margin: 70px 0px 0px 36px;
+  border-radius: 40px;
+}
+
+.iconLocation {
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: baseline;
+}
+
+.containerInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  padding-bottom: 3vh;
+  padding-left: 30px;
+}
+
+.infoSx {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.infoDx {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30vh;
+  margin-right: auto;
+  color: white;
+  margin-block: auto;
+  padding-left: 7vh;
+}
+
+.containerParagraph {
+  margin-left: 2vh;
+}
+
+.iconSocial {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 9vh;
+  align-items: baseline;
+  padding-bottom: 12vh;
 }
