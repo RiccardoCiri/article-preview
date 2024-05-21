@@ -42,9 +42,13 @@ footer {
   background-color: var(--VeryDarkCyan);
   display: flex;
   flex-direction: row;
-  height: 55vh;
+  height: 33rem;
   font-family: "Open Sans", sans-serif;
   font-size: small;
+}
+
+.firstParagraph {
+  padding-bottom: 7rem;
 }
 
 .growTogheter {
@@ -59,11 +63,11 @@ footer {
   border: none;
   background-color: var(--Pink);
   border-radius: 45px;
-  box-shadow: 1px 1px 5px var(--Pink);
+  box-shadow: 1px 1px 5px grey;
   padding: 15px;
   width: 15rem;
   color: white;
-  margin-top: 7rem;
+  margin-top: 2rem;
   margin-bottom: auto;
 }
 
@@ -112,8 +116,8 @@ footer {
   flex-direction: row;
   padding: 60px;
   background-color: white;
-  box-shadow: 0px 0px 12px grey;
-  border-radius: 12px;
+  box-shadow: 0px 0px 20px whitesmoke;
+  border-radius: 8px;
   margin-left: 14rem;
   margin-right: 14rem;
   margin-bottom: 38px;
@@ -159,6 +163,7 @@ footer {
   flex-direction: row;
   justify-content: flex-start;
   margin: 36px;
+  font-size: 11px;
 }
 
 .iconContainer {
@@ -169,11 +174,8 @@ footer {
 }
 
 .logo2img {
-  background-color: white;
-  height: 25px;
-  width: 111px;
-  margin: 70px 0px 0px 36px;
-  border-radius: 40px;
+  height: 20px;
+  margin: 64px 0px 0px 36px;
 }
 
 .iconLocation {
@@ -188,8 +190,9 @@ footer {
   flex-direction: column;
   justify-content: center;
   color: white;
-  padding-bottom: 33px;
-  padding-left: 120px;
+  padding-bottom: 34px;
+  padding-left: 241px;
+  font-size: 12px;
 }
 
 .infoSx {
@@ -207,7 +210,7 @@ footer {
   margin-right: auto;
   color: white;
   margin-block: auto;
-  padding-left: 160px;
+  padding-left: 289px;
 }
 
 .containerParagraph {
@@ -217,7 +220,44 @@ footer {
 .iconSocial {
   display: flex;
   flex-direction: row-reverse;
-  width: 4rem;
+  width: 16rem;
   align-items: baseline;
-  padding-bottom: 104px;
+  padding-bottom: 23px;
+}
+
+.socialButton {
+  background-color: var(--VeryDarkCyan);
+  padding: 4px;
+  border-radius: 1rem;
+  border-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.containerSocial {
+  display: flex;
+  flex-direction: row;
+  align-items: normal;
+  margin-top: 10rem;
+}
+
+.Copyright {
+  margin-top: 16rem;
+  width: max-content;
+  font-size: 10px;
+}
+
+.attribution {
+  background-color: var(--VeryDarkCyan);
+  color: white;
+}
+
+.containerFlex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
