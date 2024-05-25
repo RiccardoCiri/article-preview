@@ -27,10 +27,13 @@ header {
   background-image: url(images/bg-hero-desktop.svg);
   height: 78vh;
   background-color: var(--VeryPaleCyan);
-  display: flex;
+  display: grid;
   font-family: "Poppins", sans-serif;
   justify-content: center;
   margin-bottom: 18vh;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
 }
 
 h1 {
@@ -70,7 +73,7 @@ footer {
 }
 
 .firstParagraph {
-  padding-bottom: 7rem;
+  padding-bottom: 4rem;
 }
 
 .growTogheter {
@@ -130,10 +133,22 @@ footer {
 }
 
 .imgStandard {
-  height: 14rem;
+  height: 12rem;
 }
 
 .containerStandard {
+  display: flex;
+  flex-direction: row;
+  padding: 60px;
+  background-color: white;
+  box-shadow: 0px 0px 20px whitesmoke;
+  border-radius: 8px;
+  margin-left: 14rem;
+  margin-right: 14rem;
+  margin-bottom: 38px;
+}
+
+.containerStandard1 {
   display: flex;
   flex-direction: row;
   padding: 60px;
@@ -232,7 +247,7 @@ footer {
   margin-right: auto;
   color: white;
   margin-block: auto;
-  padding-left: 289px;
+  padding-left: 257px;
 }
 
 .containerParagraph {
@@ -282,4 +297,281 @@ footer {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: flex-end;
+}
+
+.headerX {
+  display: flex;
+  justify-content: center;
+}
+
+.huddle {
+  display: flex;
+  margin-left: 12%;
+  margin-bottom: 12%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.divButton {
+  margin-left: 331%;
+}
+
+@media screen and (max-width: 1440px) {
+  header {
+    height: 179vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 18vh;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .headerSectionSx {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 10px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .headerX {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0rem;
+  }
+
+  .divButton {
+    margin-left: 173%;
+  }
+
+  .sectionHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .containerFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .containerStandard {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 147px;
+    background-color: white;
+    box-shadow: 0px 0px 20px whitesmoke;
+    border-radius: 8px;
+    margin-left: 14rem;
+    margin-right: 14rem;
+    margin-bottom: 38px;
+  }
+
+  .containerStandard1 {
+    display: flex;
+    flex-direction: column;
+    padding: 147px;
+    background-color: white;
+    box-shadow: 0px 0px 20px whitesmoke;
+    border-radius: 8px;
+    margin-left: 14rem;
+    margin-right: 14rem;
+    margin-bottom: 38px;
+  }
+
+  footer {
+    background-color: var(--VeryDarkCyan);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 48rem;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: small;
+  }
+  .infoSx {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .infoDx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: start;
+    color: white;
+    padding-left: 0;
+    margin-block: 0;
+    margin-right: 0;
+  }
+  .containerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: baseline;
+    color: white;
+    padding-bottom: 0px;
+    padding-left: 36px;
+    font-size: 12px;
+  }
+  .containerSocial {
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    margin-top: 1rem;
+    margin-left: -2rem;
+  }
+  .Copyright {
+    margin-top: 1rem;
+    width: max-content;
+    font-size: 10px;
+    margin-left: -2rem;
+  }
+  .iconSocial {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 16rem;
+    align-items: baseline;
+    padding-bottom: 23px;
+    margin-left: -1rem;
+  }
+
+  .containerText {
+    display: flex;
+    flex-direction: column;
+    margin-left: initial;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+  }
+
+  .growTogheter {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .containerTextS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+  }
+
+  .flowing-conversation {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  header {
+    height: 106vh;
+  }
+
+  .containerStandard {
+    display: flex;
+    flex-direction: column-reverse;
+    box-shadow: 0px 0px 20px whitesmoke;
+    border-radius: 8px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 38px;
+    align-items: center;
+  }
+  .containerStandard1 {
+    display: flex;
+    flex-direction: column;
+    padding: 147px;
+    box-shadow: 0px 0px 20px whitesmoke;
+    border-radius: 8px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 38px;
+  }
+  .divButton {
+    margin-left: 96%;
+  }
+
+  .mockups {
+    width: 29rem;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .divButton {
+    margin-left: 25%;
+  }
+
+  header {
+    font-size: 10px;
+    text-align: center;
+    height: 100vh;
+  }
+
+  .mockups {
+    width: 10rem;
+  }
+
+  .headerSectionSx {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 10px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .imgStandard {
+    height: 6rem;
+    width: 9rem;
+  }
+
+  .containerText {
+    font-size: 10px;
+  }
+
+  .containerTextS {
+    font-size: 10px;
+  }
+
+  .containerStandard {
+    padding: 51px;
+  }
+
+  .containerStandard1 {
+    padding: 51px;
+  }
+
+  .logo1 {
+    width: 7rem;
+    padding-bottom: 11%;
+  }
+
+  .button2 {
+    padding: 4px;
+    width: 97px;
+    height: 26px;
+    font-size: 12px;
+  }
+
+  .headerX {
+    margin-bottom: 3rem;
+  }
 }
