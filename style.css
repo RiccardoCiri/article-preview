@@ -136,16 +136,6 @@ footer {
   margin-bottom: 38px;
 }
 
-.containerStandard1 {
-  display: flex;
-  padding: 60px;
-  box-shadow: 0px 0px 20px whitesmoke;
-  border-radius: 8px;
-  margin-left: 14rem;
-  margin-right: 14rem;
-  margin-bottom: 38px;
-}
-
 .containerText {
   display: flex;
   flex-direction: column;
@@ -293,7 +283,14 @@ footer {
   margin-left: 56rem;
 }
 
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
 @media screen and (max-width: 1440px) {
+  .row-reverse {
+    flex-direction: inherit;
+  }
   header {
     height: -webkit-fill-available;
     width: 100%;
@@ -347,11 +344,6 @@ footer {
 
   .containerStandard {
     flex-direction: column-reverse;
-    padding: 147px;
-  }
-
-  .containerStandard1 {
-    flex-direction: column;
     padding: 147px;
   }
 
@@ -412,22 +404,12 @@ footer {
 
   .containerStandard {
     display: flex;
-    flex-direction: column-reverse;
     box-shadow: 0px 0px 20px whitesmoke;
     border-radius: 8px;
     margin-left: 0;
     margin-right: 0;
   }
-  .containerStandard1 {
-    display: flex;
-    flex-direction: column;
-    padding: 147px;
-    box-shadow: 0px 0px 20px whitesmoke;
-    border-radius: 8px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 38px;
-  }
+
   .divButton {
     margin-left: 96%;
   }
@@ -477,10 +459,6 @@ footer {
   }
 
   .containerStandard {
-    padding: 51px;
-  }
-
-  .containerStandard1 {
     padding: 51px;
   }
 
