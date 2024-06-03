@@ -25,12 +25,15 @@ main {
 
 header {
   background-image: url(images/bg-hero-desktop.svg);
-  height: 78vh;
+  height: 50rem;
   background-color: var(--VeryPaleCyan);
-  display: flex;
+  display: grid;
   font-family: "Poppins", sans-serif;
   justify-content: center;
-  margin-bottom: 18vh;
+  margin-bottom: 8rem;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
 }
 
 h1 {
@@ -40,11 +43,9 @@ h1 {
 
 footer {
   background-color: var(--VeryDarkCyan);
-  display: flex;
-  flex-direction: row;
-  height: 33rem;
+  display: grid;
+  height: auto;
   font-family: "Open Sans", sans-serif;
-  font-size: small;
 }
 
 .button1:hover {
@@ -63,24 +64,19 @@ footer {
   cursor: pointer;
 }
 
+.infoHover {
+  padding: 3px;
+}
+
 .socialButton:hover {
   background-color: var(--Pink);
   border-color: var(--Pink);
   cursor: pointer;
 }
 
-.firstParagraph {
-  padding-bottom: 7rem;
-}
-
 .growTogheter {
   margin-left: auto;
 }
-
-.title {
-  margin-bottom: 5vh;
-}
-
 .button1 {
   border: none;
   background-color: var(--Pink);
@@ -89,8 +85,7 @@ footer {
   padding: 15px;
   width: 15rem;
   color: white;
-  margin-top: 2rem;
-  margin-bottom: auto;
+  margin-top: 16px;
 }
 
 .button2 {
@@ -102,31 +97,29 @@ footer {
   width: 9rem;
   color: var(--VeryDarkCyan);
   margin-bottom: auto;
+  font-weight: bold;
 }
 
 .mockups {
   width: 38rem;
-  margin-left: 80px;
 }
 
 .headerSectionSx {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
+  width: 23rem;
   justify-content: center;
-  padding: 32px 84px;
 }
 
 .headerSectionDx {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 32px 100px;
-  align-items: flex-end;
+  padding: 0px 49px;
 }
 
 .logo1 {
   width: 11rem;
-  padding-bottom: 16%;
+  padding-bottom: 5rem;
 }
 
 .imgStandard {
@@ -135,9 +128,7 @@ footer {
 
 .containerStandard {
   display: flex;
-  flex-direction: row;
   padding: 60px;
-  background-color: white;
   box-shadow: 0px 0px 20px whitesmoke;
   border-radius: 8px;
   margin-left: 14rem;
@@ -149,8 +140,9 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: initial;
   font-family: "Poppins", sans-serif;
+  color: rgb(172, 170, 170);
+  width: 24rem;
 }
 
 .containerTextS {
@@ -159,8 +151,9 @@ footer {
   justify-content: center;
   margin-left: auto;
   font-family: "Poppins", sans-serif;
+  color: rgb(172, 170, 170);
+  width: 24rem;
 }
-
 .community {
   display: flex;
   flex-direction: column;
@@ -168,11 +161,9 @@ footer {
 }
 
 .communitySection {
-  display: flex;
-  flex-direction: column;
   align-self: center;
-  border-radius: 8px;
-  box-shadow: 1px 1px 12px grey;
+  border-radius: 3px;
+  box-shadow: 1px 1px 6px whitesmoke;
   padding: 3rem 4rem;
   margin-bottom: -4rem;
   position: relative;
@@ -182,16 +173,11 @@ footer {
 
 .iconText {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
   margin: 36px;
   font-size: 11px;
 }
 
 .iconContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
   color: white;
 }
 
@@ -212,27 +198,21 @@ footer {
   flex-direction: column;
   justify-content: center;
   color: white;
-  padding-bottom: 34px;
-  padding-left: 241px;
+  padding-bottom: 18px;
   font-size: 12px;
+  margin: auto;
 }
 
 .infoSx {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
-  margin-left: auto;
+  display: grid;
+  align-items: center;
+  margin-left: 88px;
+  width: min-content;
 }
 
 .infoDx {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 18rem;
-  margin-right: auto;
   color: white;
-  margin-block: auto;
-  padding-left: 289px;
+  margin-right: 88px;
 }
 
 .containerParagraph {
@@ -262,7 +242,7 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: normal;
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 
 .Copyright {
@@ -278,8 +258,242 @@ footer {
 
 .containerFlex {
   display: flex;
-  flex-direction: row;
+  width: -webkit-fill-available;
+}
+
+.sectionHeader {
+  display: flex;
+  gap: 12rem;
+}
+
+.headerX {
+  display: flex;
+  justify-self: start;
+}
+
+.huddle {
+  display: flex;
+  margin-left: 12%;
+  margin-bottom: 12%;
+  justify-content: flex-start;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+.divButton {
+  margin-left: 56rem;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 1440px) {
+  .row-reverse {
+    flex-direction: inherit;
+  }
+  header {
+    height: -webkit-fill-available;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 8rem;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .iconText {
+    width: 14rem;
+  }
+
+  .headerSectionSx {
+    padding: 32px 10px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 36rem;
+  }
+
+  .headerSectionDx {
+    margin-bottom: 5rem;
+  }
+
+  .headerX {
+    justify-content: center;
+    margin-top: 70px;
+  }
+
+  .divButton {
+    margin-left: 28rem;
+  }
+
+  .sectionHeader {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0;
+  }
+
+  .containerFlex {
+    display: grid;
+    justify-content: center;
+  }
+
+  .containerStandard {
+    flex-direction: column-reverse;
+    padding: 147px;
+  }
+
+  footer {
+    align-items: center;
+    height: 48rem;
+  }
+  .infoSx {
+    margin-left: 0;
+  }
+  .containerInfo {
+    padding-bottom: 0px;
+    margin: 28px;
+  }
+  .containerSocial {
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    margin-top: 1rem;
+    margin-left: -2rem;
+  }
+  .Copyright {
+    margin-top: 1rem;
+    margin-left: -5rem;
+  }
+  .iconSocial {
+    margin-left: -1rem;
+  }
+
+  .containerText {
+    width: auto;
+    text-align: center;
+  }
+
+  .growTogheter {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .containerTextS {
+    width: auto;
+    text-align: center;
+  }
+
+  .flowing-conversation {
+    margin: auto;
+  }
+
+  .imgStandard {
+    width: 12rem;
+    height: 12rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  header {
+    height: auto;
+  }
+
+  .containerStandard {
+    display: flex;
+    box-shadow: 0px 0px 20px whitesmoke;
+    border-radius: 8px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .divButton {
+    margin-left: 96%;
+  }
+
+  .mockups {
+    width: 29rem;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .divButton {
+    margin-left: 41%;
+  }
+
+  .title {
+    margin-bottom: 2rem;
+    width: 12rem;
+  }
+
+  header {
+    font-size: 10px;
+    text-align: center;
+    height: 60rem;
+  }
+
+  .mockups {
+    width: 15rem;
+  }
+
+  .headerSectionSx {
+    padding: 96px 10px;
+    width: auto;
+  }
+
+  .imgStandard {
+    height: 6rem;
+    width: 9rem;
+  }
+
+  .containerText {
+    font-size: 10px;
+  }
+
+  .containerTextS {
+    font-size: 10px;
+  }
+
+  .containerStandard {
+    padding: 51px;
+  }
+
+  .logo1 {
+    width: 7rem;
+    padding-bottom: 11%;
+  }
+
+  .button2 {
+    padding: 4px;
+    width: 97px;
+    height: 26px;
+    font-size: 12px;
+  }
+
+  .headerX {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .firstParagraph {
+    padding-bottom: 0;
+    width: 16rem;
+    font-size: 13px;
+  }
+
+  .communitySection {
+    width: min-content;
+    font-size: 9px;
+  }
+
+  .button1 {
+    padding: 6px;
+    width: 9rem;
+    font-size: 10px;
+    margin-top: 3rem;
+  }
 }
